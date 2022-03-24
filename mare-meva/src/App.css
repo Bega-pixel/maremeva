@@ -1,0 +1,11 @@
+:root{
+    --blackShadow: rgba(0, 0, 0, 0.6);
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0); 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:serif ,'Times New Roman';
+}
