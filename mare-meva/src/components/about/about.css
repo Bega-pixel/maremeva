@@ -73,5 +73,9 @@
     .about-link{
         font-size:25px;
     }
+    .about-qr{
+        height: auto;
+        width: 20%;
+    }
 
 }
