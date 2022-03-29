@@ -1,7 +1,9 @@
 :root{
     --blackShadow: rgba(0, 0, 0, 0.6);
     --white: rgb(255, 255, 255);
-    --black: rgb(0, 0, 0); 
+    --black: rgb(0, 0, 0);
+    --aqua:rgb(29, 182, 182);
+    --brown:rgb(134, 89, 45); 
 }
 *{
     margin: 0;
