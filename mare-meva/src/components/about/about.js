@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='about-container' id='about'>
         <div className='about-desc'>
-            <h1>Mare Meva</h1>
+            <h2>Mare Meva</h2>
             <p>Un espacio que te abre sus puertas para que, aunque vayas de bólido, puedas comer cada día sano y equilibrado. Nos esforzamos en ofrecerte una gran variedad de platos preparados para que te los lleves donde quieras, siguiendo la dieta mediterránea y con un precio muy asequible.
 Ven y disfruta de la "Comida hecha como en casa"</p>
 

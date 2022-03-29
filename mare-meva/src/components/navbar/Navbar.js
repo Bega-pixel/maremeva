@@ -9,12 +9,11 @@ const Navbar = ({ isScrolling }) => {
   return (
     <nav className={`navbar ${isScrolling > 20 ? "scrolling" : null}`}>
       <div className="navbar-logo" onClick={toTheTop}>
-      <img rel="icon" href="https://res.cloudinary.com/dazypdtba/image/upload/v1648054732/Mare%20Meva/logo_anj0un.jpg" type="image" />Your name
-      
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>
+        <ul>
+          <li className='item1'><img rel="icon" href="https://res.cloudinary.com/dazypdtba/image/upload/v1648054732/Mare%20Meva/logo_anj0un.jpg" type="image" /> <p>Your name</p></li>
+          <li className='item2'><a href="#about"><p>About</p></a></li>
+          <li className='item3'><a href="#contact"><p>contact</p></a></li>
+        </ul>  
 
       </div>
     </nav>

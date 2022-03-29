@@ -20,17 +20,17 @@ const Footer = () => {
 
          <div className='footer-sns' >
             <div className='sns-link'> 
-                <a href="https://www.facebook.com/MareMeva-513857335416236/" target="_blank" rel="noreferrer">
+                <a className='' href="https://www.facebook.com/MareMeva-513857335416236/" target="_blank" rel="noreferrer">
                     <i className="fab fa-facebook"></i>
                     MareMeva
                 </a>
 
-                <a href="mailto:info@maremeva.com">
+                <a className='' href="mailto:info@maremeva.com">
                     <i className="fas fa-at" target="_blank" rel="noreferrer"></i>
                     info@maremeva.com
                 </a>
 
-                <a href="tel:+34930042188"  id='contact'>
+                <a className='' href="tel:+34930042188"  id='contact'>
                     <i className="fas fa-phone" target="_blank" rel="noreferrer"></i>
                     +34 930 042 188
                 </a>

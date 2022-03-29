@@ -22,9 +22,12 @@
     font-size: 80px;
   }
   
-  .cover-container > p {
-    margin-top: 8px;
-    color: white;
-    font-size: 25px;
+
+  @media screen and (max-width: 960px){
+    .cover-container > h1{
+      font-size: 50px;
+    }
+
+
   }
   

@@ -41,6 +41,7 @@
 
 .sns-link{
     display: grid;
+    grid-template-areas: 'top' 'midle' 'bottom';
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -67,4 +68,50 @@ a{
     font-size: 20px;
     color: white;
 
+}
+
+.footer-maps{
+    height: auto;
+    width: 50%;
+    justify-content: center;
+}
+
+@media screen and (max-width: 960px){
+    .footer-info, .footer-contact {
+        font-size: 15px;
+        padding: 50px 0 100px 0;
+        text-align: center;
+    }
+
+    .footer-sns {
+        margin-left: 35%;
+        font-size: 15px;
+        display:grid;
+        text-align: center;
+        justify-content: center;
+    }
+    /*
+    .item1{
+        grid-area: top;
+        
+    }
+    .item2{
+        grid-area: midle;
+    }
+    .item3{
+        grid-area: bottom;
+    }
+    */
+}
+
+@media screen and (max-width: 818px){
+    .footer-sns {
+        margin-left: 30%;
+    }   
+}
+
+@media screen and (max-width: 540px){
+    .footer-sns {
+        margin-left: 25%;
+    }
 }
