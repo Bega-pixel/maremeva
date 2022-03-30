@@ -11,7 +11,7 @@ const Navbar = ({ isScrolling }) => {
       <div className="navbar-logo" onClick={toTheTop}>
         
           
-          <p>Mare <img className='navbar-img' rel="icon" src={"https://res.cloudinary.com/dazypdtba/image/upload/v1648054732/Mare%20Meva/logo_anj0un.jpg"} type="image" /> Meva</p>
+          <p>Mare <img className='navbar-img' rel="icon" src="https://res.cloudinary.com/dazypdtba/image/upload/v1648054732/Mare%20Meva/logo_anj0un.jpg" type="image" /> Meva</p>
            
       </div>
     </nav>
