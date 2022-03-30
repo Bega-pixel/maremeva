@@ -2,9 +2,8 @@
     height: 45vh;
     width: 100%;
     object-fit: contain;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 0 0 1000px var(--blackShadow);
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -24,7 +23,7 @@
   
 
   @media screen and (max-width: 960px){
-    h1{
+    .cover-container > h1{
       font-size: 50px;
     }
 
