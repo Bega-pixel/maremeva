@@ -16,6 +16,7 @@ const Footer = () => {
           <p>Carrer Bolivia 31, 08018 Barcelona.</p>
       </div>
       <div className='footer-maps'>
+          
       </div>
 
          <div className='footer-sns' >
