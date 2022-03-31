@@ -4,11 +4,12 @@
     width: 100%;
     object-fit: contain;
     /*box-shadow: inset 0 0 0 1000px var(--blackShadow);*/
+    background-image: "https://res.cloudinary.com/dazypdtba/image/upload/v1647432144/Mare%20Meva/maremeva_v3ghcn.jpg";
     display: flex;
     justify-content: center;
     align-items: center;
   }
-/*aqui esta el error de la imagen es .cover-container lo que la bloquea*/
+
   .cover-img {
     object-fit: cover;
     width: 100%;
