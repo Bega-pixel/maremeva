@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       
-      
+      <Navbar isScrolling={scrollHeight} />
       <Cover />
       <About />
       <Footer />
