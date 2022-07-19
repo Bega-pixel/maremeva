@@ -5,18 +5,20 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className='footer' >
+        
       <div className='footer-info'>
           <h2>Mare Meva</h2>
           <p>Horarios Abierto de Lunes a Viernes: 7:30-16h.</p>
-          <p>Cerrado Sábados y Domingos.</p>
-          
+          <p>Cerrado Sábados y Domingos.</p> 
       </div>
+
       <div className='footer-contact'>
           <h3>¡Estamos aqui!</h3>
           <p>Carrer Bolivia 31, 08018 Barcelona.</p>
       </div>
-      <div className='footer-maps'>
-          
+
+      <div className='footer-mapframe'>
+          <img className='footer-maps' alt="" src="https://res.cloudinary.com/dazypdtba/image/upload/v1658250285/Mare%20Meva/imagenmapa_a5ocxg.jpg" />
       </div>
 
          <div className='footer-sns' >

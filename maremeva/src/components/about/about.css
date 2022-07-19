@@ -25,7 +25,7 @@
 }
 
 .about-img{
-  height: auto;   
+  max-height: 490px;  
   width: 65%;
   display: flex;
   justify-content: center;
