@@ -196,7 +196,8 @@ a{
     }
 }
 
-@media screen and (max-height: 660px){
+@media screen and (max-width: 382px),
+       screen and (max-height: 660px){
 
     .footer-info{
         margin-top: 3%;
@@ -208,4 +209,11 @@ a{
         width: 100%;
         margin-bottom: -1%;
     }
+    .footer-sns {
+        display: grid;
+        padding: 0 0 5px 0;
+        margin-left: 30%;
+        font-size: 7px;
+        top: 460px;
+    } 
 }
