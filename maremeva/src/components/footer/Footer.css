@@ -196,16 +196,16 @@ a{
     }
 }
 
-@media screen and (max-width: 382px),
+@media screen and (max-width: 374px),
        screen and (max-height: 660px){
     .footer{
         height: 130vh;
     }
     .footer-info{
-        margin-top: 5%;
+        margin-top: 10%;
     }
     .footer-contact{
-        margin-top: -10%;
+        margin-top: -14%;
     }
     .footer-mapframe{
         width: 100%;
