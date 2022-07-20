@@ -32,6 +32,10 @@
   overflow: hidden;  
 }
 
+img{
+    margin: 5% 0;
+}
+
 .about-link{
     color: var(--aqua);
     font-size:30px;
