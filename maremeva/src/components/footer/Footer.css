@@ -199,7 +199,7 @@ a{
 @media screen and (max-width: 382px),
        screen and (max-height: 660px){
     .footer{
-        height: 120vh;
+        height: 130vh;
     }
     .footer-info{
         margin-top: 5%;
