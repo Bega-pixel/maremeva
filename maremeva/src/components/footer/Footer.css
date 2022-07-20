@@ -87,6 +87,14 @@ a{
         text-align: center;
     }
 
+    .footer-info{
+        margin-top: 25%;
+    }
+   
+    .footer-contact{
+
+        margin-bottom: -1%;
+}
     .footer-maps{   
         height: 75%;
     }
