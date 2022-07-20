@@ -27,12 +27,10 @@ const Footer = () => {
                     <i className="fab fa-facebook"></i>
                     MareMeva
                 </a>
-
                 <a className='' href="mailto:info@maremeva.com">
                     <i className="fas fa-at" target="_blank" rel="noreferrer"></i>
                     info@maremeva.com
                 </a>
-
                 <a className='' href="tel:+34930042188"  id='contact'>
                     <i className="fas fa-phone" target="_blank" rel="noreferrer"></i>
                     +34 930 042 188

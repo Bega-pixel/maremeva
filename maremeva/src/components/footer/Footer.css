@@ -31,11 +31,9 @@
 }
 
 .footer-sns {
-    width: 70%;
-    position: absolute;
+    width: 70%; 
     bottom: .1%; 
-    left: 40px;
-    margin: 0 auto;
+    margin-left: 20%;
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
@@ -73,8 +71,10 @@ a{
     width: 50%;
     justify-content: center;
 }
+
 .footer-mapframe {
     margin-left: 20%;
+    margin-bottom: 5%;
 }
 
 @media screen and (max-width: 960px){
@@ -87,9 +87,7 @@ a{
         text-align: center;
     }
 
-    .footer-maps{
-        width: 100%;
-        margin-left: 0;
+    .footer-maps{   
         height: 75%;
     }
 
@@ -100,42 +98,69 @@ a{
         text-align: center;
         justify-content: center;
         margin-top: -20%;
+        
+    }
+
+    .footer-mapframe{
+        width: 100%;
+        margin-left: 25%;
+        margin-bottom: 25%;
     }
 
     .footer-maps > img {
         width: 100%;
+        margin-left: 0;
     }
 
 }
 
 @media screen and (max-width: 660px){
-    .footer-sns {
-        padding: 0 0 20px 0;
-        font-size: 15px;
-    } 
     .footer-maps{
         width: 100%;
         margin-left: 0;
         height: 65%;
     }
-   
+    .footer-sns {
+        padding: 0 0 20px 0;
+        font-size: 15px;
+    } 
 }
 
 @media screen and (max-width: 541px){
- 
+    .footer-maps{
+        width: 100%;
+        margin-left: 0;
+        height: 65%;
+    }
+    .footer-contact{
+        margin-bottom: -15%;
+    }
+    .footer-mapframe{
+        width: 100%;
+        margin: 0 0 -5% 0%;
+    }
     .footer-sns {
         padding: 0 0 10px 0;
         font-size: 12px;
-    }  
+    }
+    
+     
 }
 
 @media screen and (max-width: 394px){
+    .footer-info{
+        margin-bottom: -30%;
+    }
     .footer-sns {
         display: grid;
         padding: 0 0 5px 0;
-        margin-left: 26px;
+        margin-left: 30%;
         font-size: 7px;
         top: 460px;
     }   
+    .footer-mapframe{
+        width: 100%;
+        margin-bottom: -5%;
+    }
 }
 
