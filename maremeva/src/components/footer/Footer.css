@@ -192,5 +192,20 @@ a{
     .footer-mapframe{
         width: 100%;
         margin-bottom: 0;
+        
+    }
+}
+
+@media screen and (max-height: 660px){
+
+    .footer-info{
+        margin-top: 3%;
+    }
+    .footer-contact{
+        margin-top: -7%;
+    }
+    .footer-mapframe{
+        width: 100%;
+        margin-bottom: -1%;
     }
 }
